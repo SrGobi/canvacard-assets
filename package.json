@@ -1,0 +1,33 @@
+{
+  "name": "@canvacard/assets",
+  "version": "2.1.0",
+  "description": "Assets utilizados en Canvacard",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  },
+  "keywords": [
+    "canvacard",
+    "assets"
+  ],
+  "author": "SrGobi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrGobi/canvacard-assets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SrGobi/canvacard-assets/issues"
+  },
+  "homepage": "https://github.com/SrGobi/canvacard-assets#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  }
+}
