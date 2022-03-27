@@ -1,6 +1,6 @@
 {
   "name": "@canvacard/assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assets utilizados en Canvacard",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
